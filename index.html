@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Your Birth-Date</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Let's tell you the day of your birth...</h1>
+<body>
+   <div class="container">
+    
+    <form>
+     <input id="display-none" type="text" required>   
+<label for="Date"><strong>Date:</strong></label>
+<input class="width" id="input1" type="text" required>
+<label style="padding-left: 10px;"  for="Date"><strong>Month:</strong></label>
+<input class="width-month" id="input2" type="text" required>
+<label style="padding-left: 10px;"  for="Date"><strong>Age:</strong></label>
+<input  class="widthAge" id= "input3" type="text" required>
+<button id="submit">Submit</button>
+    </form>
+</div>
+
+<div class="footer">
+
+    <div>
+    <button 
+    class="refresh" onclick="window.location.reload();">
+        Refresh
+    </button>
+    
+</div>
+
+<div>
+
+    <p>
+       Note:
+        You can input months as numbers or short-form names
+         (e.g., "Jan" for January). When nearing your 
+         next birthday within the current year,
+          use a fractional age input like 18.2 or 18.5,
+           depending on how close you are to
+            your upcoming birthday. This method ensures
+         accurate age representation relative to the
+          current month.
+    </p>
+</div>
+
+<div>
+
+<h2>
+    Lexeme Jay &copy;2024...
+</h2>
+
+</div>
+
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
